@@ -94,5 +94,5 @@ Nachvollziehbarkeit und Praxisnutzen zu legen.
 Dieses Projekt ist kein reines Softwareprojekt, sondern ein **Digitalisierungsbeispiel**.
 Es zeigt, wie Fachwissen, IT und Prozesse so verbunden werden, dass Entscheidungen schneller, transparenter und nachvollziehbar werden.
 
-📄 [Kurz-Portfolio (PDF)](docs/portfolio/Digitale_Brueckenpruefung_Portfolio.pdf)
+📄 [Kurz-Portfolio (PDF)](docs/Portfolio/Digitale_Brueckenpruefung_Portfolio.pdf)
 
