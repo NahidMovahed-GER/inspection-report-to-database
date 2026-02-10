@@ -53,4 +53,4 @@ Die Schadensdaten werden in einer PostgreSQL-Datenbank gespeichert:
 
 ### 3. Automatische Priorisierung
 Eine Datenbank-View berechnet aus der Bewertung automatisch eine Priorität:
-
+Priorität = S + V + D
