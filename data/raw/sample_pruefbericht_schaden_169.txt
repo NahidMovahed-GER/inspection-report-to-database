@@ -1,0 +1,15 @@
+[169] S=1, V=0, D=2     BSP-ID 011-03
+
+Bauteil: Längsträger der Fahrbahnplatte
+Schadensart: Nietkopf fehlt
+Häufigkeit: Mehrfach
+Anzahl: 2 Stück
+
+Lage:
+- Überbau: 3-ter Überbau
+- Feld: 1-tes Feld
+- Bereich: 2. Endbereich
+- Position: Unterstromig, unten außen
+
+Beschreibung:
+An einer vertikalen Hauptträgersteife fehlen zwei Nietköpfe.
