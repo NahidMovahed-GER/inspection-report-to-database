@@ -91,5 +91,5 @@ Nachvollziehbarkeit und Praxisnutzen zu legen.
 ---
 
 ## Projektfokus
-Dieses Projekt ist kein reines Softwareprojekt, sondern ein **Digitalisierungsbeispiel**:
-Es zeigt, wie Fachwissen, IT und Prozesse sinnvoll zusammengeführt werden können.
+Dieses Projekt ist kein reines Softwareprojekt, sondern ein **Digitalisierungsbeispiel**.
+Es zeigt, wie Fachwissen, IT und Prozesse so verbunden werden, dass Entscheidungen schneller, transparenter und nachvollziehbar werden.
