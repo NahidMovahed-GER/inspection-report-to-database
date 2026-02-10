@@ -1,2 +1,2 @@
 # inspection-report-to-database
-Dockerized pipeline that turns inspection-style text findings into a structured PostgreSQL data model (ETL + schema + queries).
+Digitalisierung von Prüfberichten (DIN-1076-ähnlich): Text → strukturiertes Datenmodell → PostgreSQL (Docker) + Queries.
