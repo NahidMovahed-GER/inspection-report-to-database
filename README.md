@@ -1,9 +1,8 @@
-# inspection-report-to-database
-## DIN-1076-Prüfbericht – Digitalisierung als Datenmodell (Docker + PostgreSQL)
+# 🌉 Digitale Brücken-Prüfung  
+## Vom DIN-1076-Prüfbericht zur automatischen Prioritätenliste  
+**Docker · PostgreSQL · Datenmodellierung**
 
->
-> # 🌉 Projekt: Digitale Brücken-Prüfung  
-**Vom Prüfbericht zur automatischen Prioritätenliste**
+---
 
 ## Kurzbeschreibung
 Dieses Projekt zeigt, wie technische Prüfberichte aus dem Brücken- und Ingenieurbau  
@@ -53,4 +52,7 @@ Die Schadensdaten werden in einer PostgreSQL-Datenbank gespeichert:
 
 ### 3. Automatische Priorisierung
 Eine Datenbank-View berechnet aus der Bewertung automatisch eine Priorität:
+
+```text
 Priorität = S + V + D
+```
