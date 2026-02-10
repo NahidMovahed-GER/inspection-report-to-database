@@ -56,3 +56,40 @@ Eine Datenbank-View berechnet aus der Bewertung automatisch eine Priorität:
 ```text
 Priorität = S + V + D
 ```
+
+So ist sofort sichtbar, welche Schäden zuerst bearbeitet werden müssen.
+
+---
+
+## Technischer Überblick (bewusst einfach)
+- **Docker**  
+  Stellt die komplette Umgebung reproduzierbar mit einem Befehl bereit.
+
+- **PostgreSQL**  
+  Speichert die strukturierten Schadensdaten.
+
+- **SQL-View**  
+  Erzeugt automatisch eine Prioritätenliste ohne manuelle Auswertung.
+
+Die technische Umsetzung ist bewusst schlank gehalten, um den Fokus auf
+Nachvollziehbarkeit und Praxisnutzen zu legen.
+
+---
+
+## Ergebnis
+- Ein Schaden ist nicht mehr nur Text, sondern ein **digitaler Datensatz**
+- Prioritäten sind **objektiv und sofort sichtbar**
+- Das System ist **wiederholbar** und leicht erweiterbar
+
+---
+
+## Warum ist das relevant für den öffentlichen Sektor?
+- Zeitersparnis bei der Auswertung von Prüfberichten
+- Einheitliche, nachvollziehbare Priorisierung
+- Saubere Datenbasis für Planung, Budgetierung und Kommunikation
+
+---
+
+## Projektfokus
+Dieses Projekt ist kein reines Softwareprojekt, sondern ein **Digitalisierungsbeispiel**:
+Es zeigt, wie Fachwissen, IT und Prozesse sinnvoll zusammengeführt werden können.
