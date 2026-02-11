@@ -1,14 +1,14 @@
-\# DMS-Konzept – Bauwerksprüfung
+# DMS-Konzept – Bauwerksprüfung
 
 
 
-\## Ziel
+## Ziel
 
 Dokumente (Prüfberichte, Fotos, Pläne, Genehmigungen) zentral, nachvollziehbar und sicher verwalten.
 
 
 
-\## Metadaten (Beispiele)
+## Metadaten (Beispiele)
 
 \- Bauwerksnummer / Objekt-ID
 
@@ -24,7 +24,7 @@ Dokumente (Prüfberichte, Fotos, Pläne, Genehmigungen) zentral, nachvollziehbar
 
 
 
-\## Versionierung
+## Versionierung
 
 \- Jede Änderung erzeugt eine neue Version
 
@@ -32,7 +32,7 @@ Dokumente (Prüfberichte, Fotos, Pläne, Genehmigungen) zentral, nachvollziehbar
 
 
 
-\## Zugriffsrechte (rollenbasiert)
+## Zugriffsrechte (rollenbasiert)
 
 \- Prüfer: Erstellen / Upload
 
