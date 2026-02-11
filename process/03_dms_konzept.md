@@ -44,7 +44,7 @@ Dokumente (Prüfberichte, Fotos, Pläne, Genehmigungen) zentral, nachvollziehbar
 
 
 
-\## Revisionssicherheit (öffentlicher Sektor)
+## Revisionssicherheit (öffentlicher Sektor)
 
 \- Keine Überschreibung von Dokumenten
 
