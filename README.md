@@ -14,36 +14,13 @@ So entsteht eine objektive Entscheidungsgrundlage für Instandhaltung und Planun
 
 ---
 
-# 📂 Portfolio-Struktur
+## Portfolio-Struktur
 
-Dieses Repository ist bewusst dreistufig aufgebaut:
-
-### 1️⃣ Management-Ebene  
-📄 [01_Digitale_Brueckenpruefung_Portfolio.pdf](docs/Portfolio/01_Digitale_Brueckenpruefung_Portfolio.pdf)
-
-Kurze, visuelle Zusammenfassung für Entscheidungsträger.
+1. Management-Zusammenfassung (PDF)
+2. Prozessdigitalisierung & DMS-Konzept
+3. Systemlogik & Automatisierung (technische Umsetzung)
 
 ---
-
-### 2️⃣ Prozess-Ebene  
-📘 [02_Prozessdigitalisierung_und_DMS.md](docs/Portfolio/02_Prozessdigitalisierung_und_DMS.md)
-
-Beschreibung des IST-/SOLL-Prozesses und des DMS-Konzepts.
-
----
-
-### 3️⃣ System-Ebene  
-⚙️ [03_Systemlogik_und_Automatisierung.md](docs/Portfolio/03_Systemlogik_und_Automatisierung.md)
-
-Technische Logik:
-- Tabellenstruktur  
-- JOIN-Logik  
-- Prioritätsberechnung  
-- View-Konzept  
-- Automatisierungsansatz  
-
----
-
 ## Ausgangssituation
 In klassischen Prüfberichten werden Schäden wie fehlende Nietköpfe oder Korrosionsstellen
 als Freitext beschrieben.  
@@ -71,7 +48,7 @@ Das führt zu:
 
 ### 1. Struktur statt Freitext
 Ein exemplarischer Schaden (z. B. Schaden 169: fehlender Nietkopf) wird aus dem Text
-in ein strukturiertes Format überführt.
+in ein strukturiertes JSON-Format überführt.
 
 ### 2. Datenbank als zentrales System
 Die Schadensdaten werden in einer PostgreSQL-Datenbank gespeichert:
@@ -81,8 +58,48 @@ Die Schadensdaten werden in einer PostgreSQL-Datenbank gespeichert:
 - Bewertung (S, V, D)
 
 ### 3. Automatische Priorisierung
-
 Eine Datenbank-View berechnet aus der Bewertung automatisch eine Priorität:
 
 ```text
 Priorität = S + V + D
+```
+
+So ist sofort sichtbar, welche Schäden zuerst bearbeitet werden müssen.
+
+---
+
+## Technischer Überblick (bewusst einfach)
+- **Docker**  
+  Stellt die komplette Umgebung reproduzierbar mit einem Befehl bereit.
+
+- **PostgreSQL**  
+  Speichert die strukturierten Schadensdaten.
+
+- **SQL-View**  
+  Erzeugt automatisch eine Prioritätenliste ohne manuelle Auswertung.
+
+Die technische Umsetzung ist bewusst schlank gehalten, um den Fokus auf
+Nachvollziehbarkeit und Praxisnutzen zu legen.
+
+---
+
+## Ergebnis
+- Ein Schaden ist nicht mehr nur Text, sondern ein **digitaler Datensatz**
+- Prioritäten sind **objektiv und sofort sichtbar**
+- Das System ist **wiederholbar** und leicht erweiterbar
+
+---
+
+## Warum ist das relevant für den öffentlichen Sektor?
+- Zeitersparnis bei der Auswertung von Prüfberichten
+- Einheitliche, nachvollziehbare Priorisierung
+- Saubere Datenbasis für Planung, Budgetierung und Kommunikation
+
+---
+
+## Projektfokus
+Dieses Projekt ist kein reines Softwareprojekt, sondern ein **Digitalisierungsbeispiel**.
+Es zeigt, wie Fachwissen, IT und Prozesse so verbunden werden, dass Entscheidungen schneller, transparenter und nachvollziehbar werden.
+
+📄 [Kurz-Portfolio (PDF)](docs/Portfolio/Digitale_Brueckenpruefung_Portfolio.pdf)
+
