@@ -14,6 +14,13 @@ So entsteht eine objektive Entscheidungsgrundlage für Instandhaltung und Planun
 
 ---
 
+## Portfolio-Struktur
+
+1. Management-Zusammenfassung (PDF)
+2. Prozessdigitalisierung & DMS-Konzept
+3. Systemlogik & Automatisierung (technische Umsetzung)
+
+---
 ## Ausgangssituation
 In klassischen Prüfberichten werden Schäden wie fehlende Nietköpfe oder Korrosionsstellen
 als Freitext beschrieben.  
