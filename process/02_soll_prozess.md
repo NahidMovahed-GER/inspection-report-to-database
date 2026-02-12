@@ -1,8 +1,8 @@
-\# SOLL-Prozess – Digitalisierte Bauwerksprüfung
+# SOLL-Prozess – Digitalisierte Bauwerksprüfung
 
 
 
-\## Neuer Ablauf
+## Neuer Ablauf
 
 1\. Strukturierte Erfassung der Schäden (Datensatz statt Freitext)
 
@@ -16,7 +16,7 @@
 
 
 
-\## Vorteile
+## Vorteile
 
 \- Keine Mehrfacherfassung
 
