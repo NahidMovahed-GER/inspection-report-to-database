@@ -1,4 +1,4 @@
-# Tag 2 – Prozessdigitalisierung & DMS-Konzept
+# T2 – Prozessdigitalisierung & DMS-Konzept
 
 ## Ziel
 Den IST-Prozess der Bauwerksprüfung analysieren und in einen strukturierten, digitalen SOLL-Prozess überführen.
