@@ -1,224 +1,153 @@
-# 05 – Digitalisierung \& KI im Ingenieurbau
-
+# 05 – Digitalisierung & KI im Ingenieurbau
 ## Realistische Einordnung von KI-Anwendungen
 
-
-
 ---
-
-
 
 ## Ziel
 
-
-
 KI nicht als Trend darstellen, sondern als Werkzeug zur Prozessunterstützung.
 
-
-
-Fokus: Konkreter Nutzen, klare Grenzen, datenschutzkonforme Umsetzung.
-
-
+Fokus:
+- Konkreter Nutzen
+- Klare Grenzen
+- Datenschutzkonforme Umsetzung
+- Verantwortungsbewusster Einsatz
 
 ---
-
-
 
 # 1. Mögliche KI-Anwendungsfälle im Ingenieurbau
 
+## Use Case 1 – Automatische Dokumentklassifikation
 
+### Ausgangssituation
+Prüfberichte, Fotos und technische Anhänge werden manuell sortiert.
 
-## 1. Dokumentklassifikation
-
-
-
-Prüfberichte, Fotos und Anhänge können automatisch kategorisiert werden:
-
-
-
+### Ziel
+Automatische Kategorisierung nach:
 - Bauwerkstyp
-
 - Schadensart
-
 - Prioritätsstufe
 
-
-
-Nutzen:
-
+### Nutzen
 - Schnellere Ablage
-
 - Strukturierte Archivierung
-
 - Weniger manuelle Sortierung
+- Bessere Nachvollziehbarkeit
 
-
-
----
-
-
-
-## 2. Textauswertung von Prüfberichten
-
-
-
-KI kann:
-
-
-
-- Schadensbeschreibungen analysieren
-
-- Schlüsselbegriffe erkennen
-
-- Bewertungsmuster identifizieren
-
-
-
-Beispiel:
-
-Erkennen von Begriffen wie „Rissbildung“, „Korrosion“, „Tragfähigkeit eingeschränkt“.
-
-
-
-Grenze:
-
-KI ersetzt nicht die fachliche Bewertung durch Ingenieure.
-
-
+### Grenze
+KI unterstützt die Strukturierung, ersetzt jedoch keine fachliche Bewertung.
 
 ---
 
+## Use Case 2 – Textauswertung von Prüfberichten
 
+### Ausgangssituation
+Schadensbeschreibungen liegen als Freitext vor.
 
-## 3. Bilderkennung (Computer Vision)
+### Ziel
+Automatische Erkennung von:
+- Schadensarten (z. B. Rissbildung, Korrosion)
+- Kritischen Begriffen
+- Bewertungsmustern
 
+### Beispiel
+Erkennen von Begriffen wie:
+„Rissbildung“, „Korrosion“, „Tragfähigkeit eingeschränkt“
 
+### Nutzen
+- Schnellere Auswertung
+- Vereinheitlichte Klassifikation
+- Unterstützung bei Priorisierung
 
-Möglicher Einsatz:
+### Grenze
+Die finale Bewertung bleibt beim Ingenieur.
 
+---
 
+## Use Case 3 – Bilderkennung (Computer Vision)
 
+### Ziel
+Automatische Voranalyse von Schadensbildern.
+
+### Möglicher Einsatz
 - Erkennung von Rissen
-
 - Klassifizierung von Korrosionsmustern
-
 - Unterstützung bei Schadensdokumentation
 
-
-
-Nutzen:
-
-- Vorfilterung
-
+### Nutzen
+- Vorfilterung großer Bildmengen
+- Zeitersparnis
 - Unterstützung der Prüfer
 
-
-
-Grenze:
-
-Endgültige Entscheidung bleibt beim Menschen.
-
-
+### Grenze
+Die endgültige Entscheidung bleibt beim Menschen.
 
 ---
-
-
 
 # 2. Realistische Positionierung von KI
 
-
-
 KI ist:
 
-
-
 - Unterstützungssystem
-
 - Analysewerkzeug
-
 - Mustererkennung
-
-
+- Effizienzsteigerung
 
 KI ist nicht:
 
-
-
 - Ersatz für Ingenieure
-
 - Automatische Entscheidungsinstanz
-
 - Rechtlich verbindliche Bewertung
-
-
+- Vollautomatisches Kontrollsystem
 
 ---
 
-
-
-# 3. Datenschutz \& Infrastruktur
-
-
+# 3. Datenschutz & Infrastruktur
 
 Im öffentlichen Sektor ist Datenschutz zentral.
 
-
-
 ## On-Premise-Lösung
 
-
-
 - Verarbeitung auf internen Servern
-
-- Höhere Datensicherheit
-
+- Höhere Kontrolle über Daten
 - Geeignet für sensible Infrastruktur-Daten
 
-
-
-## Cloud-Lösung
-
-
-
-- Skalierbarkeit
-
-- Höhere Rechenleistung
-
-- Erfordert DSGVO-konforme Umsetzung
-
-
-
-Abwägung:
-
-Art der Daten, Sicherheitsanforderungen und gesetzliche Rahmenbedingungen.
-
-
+Vorteil:
+Maximale Datensicherheit.
 
 ---
 
+## Cloud-Lösung
 
+- Skalierbarkeit
+- Höhere Rechenleistung
+- Schnellere Implementierung
 
-# 4. Risiken und Grenzen
+Erfordert:
+- DSGVO-konforme Umsetzung
+- Vertragsprüfung
+- Datenminimierung
 
+---
 
+## Abwägungskriterien
 
-- Trainingsdatenqualität
+- Sensibilität der Daten
+- Sicherheitsanforderungen
+- Gesetzliche Rahmenbedingungen
+- Wirtschaftlichkeit
+- IT-Strategie der Organisation
 
+---
+
+# 4. Risiken und Grenzen von KI
+
+- Abhängigkeit von Trainingsdatenqualität
 - Fehlklassifikationen
-
-- Abhängigkeit von Anbietern
-
-- Erklärbarkeit von KI-Entscheidungen
-
-
+- Erklärbarkeit von Entscheidungen
+- Anbieterabhängigkeit
+- Akzeptanzprobleme bei Mitarbeitenden
 
 KI sollte transparent, nachvollziehbar und kontrollierbar eingesetzt werden.
 
-
-
-
-
-
-
-
-
+---
