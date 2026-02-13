@@ -146,11 +146,13 @@ nicht als Ersatz für die fachliche Bewertung durch Ingenieure.
 <p align="center">
   <img src="docs/screenshots/01_schema_tables.png" width="600">
 </p>
+
 ### Prioritätenliste
 
 <p align="center">
   <img src="docs/screenshots/03_prioritaetenliste.png" width="600">
 </p>
+
 ---
 
 ## Relevanz für den öffentlichen Sektor
