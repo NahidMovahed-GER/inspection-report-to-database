@@ -150,4 +150,4 @@ Erfordert:
 
 KI sollte transparent, nachvollziehbar und kontrollierbar eingesetzt werden.
 
----
+
