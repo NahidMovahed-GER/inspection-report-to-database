@@ -106,4 +106,6 @@ Es zeigt, wie Fachwissen, IT und Prozesse so verbunden werden, dass Entscheidung
 - [01 – Kurz-Portfolio (PDF)](docs/Portfolio/01_Digitale_Brueckenpruefung_Portfolio.pdf)
 - [02 – Prozessdigitalisierung und DMS](docs/Portfolio/02_Prozessdigitalisierung_und_DMS.md)
 - [03 – Systemlogik und Automatisierung](docs/Portfolio/03_Systemlogik_und_Automatisierung.md)
+- [04 – Systemlogik und Automatisierung](docs/Portfolio/04_Projektmanagement_und_Workshops.md)
+- [05 – Systemlogik und Automatisierung](docs/Portfolio/05_Digitalisierung_und_KI.md)
 
