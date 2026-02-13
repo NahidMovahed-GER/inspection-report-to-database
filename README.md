@@ -119,9 +119,23 @@ Der Fokus liegt auf **Nachvollziehbarkeit, Wartbarkeit und Praxisnutzen**, nicht
 ---
 
 ## Ergebnis
+## Ergebnis
 - Ein Schaden ist nicht mehr nur Text, sondern ein **digitaler Datensatz**
 - Prioritäten sind **objektiv und sofort sichtbar**
 - Das System ist **wiederholbar** und leicht erweiterbar
+
+---
+
+## Beispiel-Ausgabe
+
+### Tabellenübersicht
+
+![Tabellenübersicht](docs/screenshots/01_schema_tables.png)
+
+### Prioritätenliste
+
+![Prioritätenliste](docs/screenshots/03_prioritaetenliste.png)
+
 
 ---
 
