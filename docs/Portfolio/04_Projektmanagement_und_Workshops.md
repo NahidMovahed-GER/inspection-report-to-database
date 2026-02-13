@@ -82,11 +82,11 @@ Gemeinsames Verständnis für Problem und Lösung schaffen.
 
 ## Beispiel-Agenda (90 Minuten)
 
-1. Ziel & Problemdefinition  
-2. IST-Prozess visualisieren  
-3. Schwachstellen sammeln  
-4. SOLL-Prozess entwickeln  
-5. Maßnahmen und Verantwortlichkeiten festlegen  
+1. Ziel & Problemdefinition (15 Min) 
+2. IST-Prozess visualisieren (20 Min) 
+3. Schwachstellen sammeln (15 Min) 
+4. SOLL-Prozess entwickeln (25 Min)   
+5. Maßnahmen und Verantwortlichkeiten festlegen (15 Min)  
 
 ---
 
