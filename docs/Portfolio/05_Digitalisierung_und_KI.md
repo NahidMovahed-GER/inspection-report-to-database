@@ -1,6 +1,6 @@
-\# 05 – Digitalisierung \& KI im Ingenieurbau
+# 05 – Digitalisierung \& KI im Ingenieurbau
 
-\## Realistische Einordnung von KI-Anwendungen
+## Realistische Einordnung von KI-Anwendungen
 
 
 
@@ -8,7 +8,7 @@
 
 
 
-\## Ziel
+## Ziel
 
 
 
@@ -24,11 +24,11 @@ Fokus: Konkreter Nutzen, klare Grenzen, datenschutzkonforme Umsetzung.
 
 
 
-\# 1. Mögliche KI-Anwendungsfälle im Ingenieurbau
+# 1. Mögliche KI-Anwendungsfälle im Ingenieurbau
 
 
 
-\## 1. Dokumentklassifikation
+## 1. Dokumentklassifikation
 
 
 
@@ -36,21 +36,21 @@ Prüfberichte, Fotos und Anhänge können automatisch kategorisiert werden:
 
 
 
-\- Bauwerkstyp
+- Bauwerkstyp
 
-\- Schadensart
+- Schadensart
 
-\- Prioritätsstufe
+- Prioritätsstufe
 
 
 
 Nutzen:
 
-\- Schnellere Ablage
+- Schnellere Ablage
 
-\- Strukturierte Archivierung
+- Strukturierte Archivierung
 
-\- Weniger manuelle Sortierung
+- Weniger manuelle Sortierung
 
 
 
@@ -58,7 +58,7 @@ Nutzen:
 
 
 
-\## 2. Textauswertung von Prüfberichten
+## 2. Textauswertung von Prüfberichten
 
 
 
@@ -66,11 +66,11 @@ KI kann:
 
 
 
-\- Schadensbeschreibungen analysieren
+- Schadensbeschreibungen analysieren
 
-\- Schlüsselbegriffe erkennen
+- Schlüsselbegriffe erkennen
 
-\- Bewertungsmuster identifizieren
+- Bewertungsmuster identifizieren
 
 
 
@@ -90,7 +90,7 @@ KI ersetzt nicht die fachliche Bewertung durch Ingenieure.
 
 
 
-\## 3. Bilderkennung (Computer Vision)
+## 3. Bilderkennung (Computer Vision)
 
 
 
@@ -98,19 +98,19 @@ Möglicher Einsatz:
 
 
 
-\- Erkennung von Rissen
+- Erkennung von Rissen
 
-\- Klassifizierung von Korrosionsmustern
+- Klassifizierung von Korrosionsmustern
 
-\- Unterstützung bei Schadensdokumentation
+- Unterstützung bei Schadensdokumentation
 
 
 
 Nutzen:
 
-\- Vorfilterung
+- Vorfilterung
 
-\- Unterstützung der Prüfer
+- Unterstützung der Prüfer
 
 
 
@@ -124,7 +124,7 @@ Endgültige Entscheidung bleibt beim Menschen.
 
 
 
-\# 2. Realistische Positionierung von KI
+# 2. Realistische Positionierung von KI
 
 
 
@@ -132,11 +132,11 @@ KI ist:
 
 
 
-\- Unterstützungssystem
+- Unterstützungssystem
 
-\- Analysewerkzeug
+- Analysewerkzeug
 
-\- Mustererkennung
+- Mustererkennung
 
 
 
@@ -144,11 +144,11 @@ KI ist nicht:
 
 
 
-\- Ersatz für Ingenieure
+- Ersatz für Ingenieure
 
-\- Automatische Entscheidungsinstanz
+- Automatische Entscheidungsinstanz
 
-\- Rechtlich verbindliche Bewertung
+- Rechtlich verbindliche Bewertung
 
 
 
@@ -156,7 +156,7 @@ KI ist nicht:
 
 
 
-\# 3. Datenschutz \& Infrastruktur
+# 3. Datenschutz \& Infrastruktur
 
 
 
@@ -164,27 +164,27 @@ Im öffentlichen Sektor ist Datenschutz zentral.
 
 
 
-\## On-Premise-Lösung
+## On-Premise-Lösung
 
 
 
-\- Verarbeitung auf internen Servern
+- Verarbeitung auf internen Servern
 
-\- Höhere Datensicherheit
+- Höhere Datensicherheit
 
-\- Geeignet für sensible Infrastruktur-Daten
-
-
-
-\## Cloud-Lösung
+- Geeignet für sensible Infrastruktur-Daten
 
 
 
-\- Skalierbarkeit
+## Cloud-Lösung
 
-\- Höhere Rechenleistung
 
-\- Erfordert DSGVO-konforme Umsetzung
+
+- Skalierbarkeit
+
+- Höhere Rechenleistung
+
+- Erfordert DSGVO-konforme Umsetzung
 
 
 
@@ -198,17 +198,17 @@ Art der Daten, Sicherheitsanforderungen und gesetzliche Rahmenbedingungen.
 
 
 
-\# 4. Risiken und Grenzen
+# 4. Risiken und Grenzen
 
 
 
-\- Trainingsdatenqualität
+- Trainingsdatenqualität
 
-\- Fehlklassifikationen
+- Fehlklassifikationen
 
-\- Abhängigkeit von Anbietern
+- Abhängigkeit von Anbietern
 
-\- Erklärbarkeit von KI-Entscheidungen
+- Erklärbarkeit von KI-Entscheidungen
 
 
 
