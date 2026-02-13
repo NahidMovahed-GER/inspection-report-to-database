@@ -68,18 +68,37 @@ So ist sofort sichtbar, welche Schäden zuerst bearbeitet werden müssen.
 
 ---
 
-## Technischer Überblick (bewusst einfach)
+## Technischer Überblick
+
+### Architektur (vereinfacht)
+
+Prüfbericht (PDF / Text)  
+↓  
+Strukturierte Erfassung der Schäden  
+↓  
+PostgreSQL-Datenbank (relationale Speicherung)  
+↓  
+SQL-Views (automatische Prioritätsberechnung)  
+↓  
+Management-Übersicht / Entscheidungsgrundlage  
+
+---
+
+### Eingesetzte Technologien
+
 - **Docker**  
   Stellt die komplette Umgebung reproduzierbar mit einem Befehl bereit.
 
 - **PostgreSQL**  
-  Speichert die strukturierten Schadensdaten.
+  Speichert die strukturierten Schadensdaten in relationaler Form.
 
-- **SQL-View**  
-  Erzeugt automatisch eine Prioritätenliste ohne manuelle Auswertung.
+- **SQL-Views**  
+  Berechnen automatisch die Priorität (S + V + D) und erzeugen eine dynamische Auswertung.
 
-Die technische Umsetzung ist bewusst schlank gehalten, um den Fokus auf
-Nachvollziehbarkeit und Praxisnutzen zu legen.
+---
+
+Die technische Umsetzung ist bewusst schlank gehalten.  
+Der Fokus liegt auf **Nachvollziehbarkeit, Wartbarkeit und Praxisnutzen**, nicht auf technischer Komplexität.
 
 ---
 
