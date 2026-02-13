@@ -1,39 +1,56 @@
 # 🌉 Digitale Brücken-Prüfung  
 ## Vom DIN-1076-Prüfbericht zur automatischen Prioritätenliste  
-**Docker · PostgreSQL · Datenmodellierung**
+**Docker · PostgreSQL · Datenmodellierung · Proof of Concept**
 
 ---
 
-## Kurzbeschreibung
-Dieses Projekt zeigt, wie technische Prüfberichte aus dem Brücken- und Ingenieurbau  
-(z. B. nach DIN 1076) in strukturierte, auswertbare Daten überführt werden können.
+## Proof of Concept (PoC)
 
-Statt Schäden nur als langen Text in PDF-Dokumenten zu erfassen, werden sie in einer
-Datenbank gespeichert und automatisch priorisiert.  
-So entsteht eine objektive Entscheidungsgrundlage für Instandhaltung und Planung.
+Dieses Repository stellt einen konzeptionellen und technischen Demonstrator dar.  
+Ziel ist die strukturierte Digitalisierung von Prüfprozessen im Ingenieurbau.
+
+Es handelt sich nicht um ein produktives System,  
+sondern um einen fachlich und technisch nachvollziehbaren Prototyp  
+zur Illustration moderner Datenmodellierung im öffentlichen Sektor.
+
+---
+
+## Executive Summary
+
+Dieses Projekt demonstriert, wie DIN-1076-Prüfberichte  
+in strukturierte, auswertbare Daten überführt werden können.
+
+Durch relationale Modellierung und automatische Prioritätsberechnung  
+entsteht eine transparente Entscheidungsgrundlage  
+für Instandhaltungsmaßnahmen im öffentlichen Infrastrukturmanagement.
+
+Der Fokus liegt auf:
+- Nachvollziehbarkeit  
+- Wartbarkeit  
+- realistischer Umsetzbarkeit  
 
 ---
 
-## Portfolio-Struktur
-
-1. Management-Zusammenfassung (PDF)
-2. Prozessdigitalisierung & DMS-Konzept
-3. Systemlogik & Automatisierung (technische Umsetzung)
-
----
 ## Ausgangssituation
-In klassischen Prüfberichten werden Schäden wie fehlende Nietköpfe oder Korrosionsstellen
-als Freitext beschrieben.  
-Die Bewertung (S / V / D) ist vorhanden, wird aber meist manuell gelesen und weiterverarbeitet.
+
+In klassischen Prüfberichten werden Schäden  
+(z. B. fehlende Nietköpfe oder Korrosionsstellen)  
+als Freitext in PDF-Dokumenten beschrieben.
+
+Die Bewertung (S / V / D) ist vorhanden,  
+wird jedoch meist manuell gelesen und weiterverarbeitet.
 
 Das führt zu:
-- hohem Zeitaufwand
-- fehlender Übersicht
-- schwieriger Vergleichbarkeit zwischen Schäden
+
+- hohem Zeitaufwand  
+- Medienbrüchen (PDF → Excel)  
+- fehlender Transparenz  
+- erschwerter Vergleichbarkeit  
 
 ---
 
 ## Ziel des Projekts
+
 - Prüfberichte **digital strukturieren**
 - Schäden **zentral speichern**
 - Prioritäten **automatisch berechnen**
@@ -44,26 +61,30 @@ Das führt zu:
 
 ---
 
-## Lösung (einfach erklärt)
+## Lösungskonzept (vereinfacht)
 
 ### 1. Struktur statt Freitext
-Ein exemplarischer Schaden (z. B. Schaden 169: fehlender Nietkopf) wird aus dem Text
-in ein strukturiertes JSON-Format überführt.
+Ein exemplarischer Schaden  
+(z. B. Schaden 169: fehlender Nietkopf)  
+wird aus dem Prüfbericht in ein strukturiertes Datenmodell überführt.
 
-### 2. Datenbank als zentrales System
+### 2. Relationale Speicherung
 Die Schadensdaten werden in einer PostgreSQL-Datenbank gespeichert:
-- Schadensnummer
-- Bauteil
-- Ort
-- Bewertung (S, V, D)
+
+- Schadens-ID  
+- Bauteil  
+- Standort  
+- Bewertung (S, V, D)  
 
 ### 3. Automatische Priorisierung
-Eine Datenbank-View berechnet aus der Bewertung automatisch eine Priorität:
+Eine SQL-View berechnet automatisch:
 
 ```text
 Priorität = S + V + D
 ```
 
+Die Prioritätenliste wird dynamisch erzeugt –
+ohne manuelle Nachbearbeitung.
 So ist sofort sichtbar, welche Schäden zuerst bearbeitet werden müssen.
 
 ---
@@ -84,19 +105,17 @@ Management-Übersicht / Entscheidungsgrundlage
 
 ---
 
-## KI-Komponente (Proof of Concept)
+## KI-Komponente (Demonstrator)
 
 Im Ordner `src/ai` befindet sich eine exemplarische Textklassifikation
 (`prototype_text_classification.py`).
 
-Diese dient als **Proof of Concept**, um zu demonstrieren,
+Diese dient als Demonstrator, um zu zeigen,
 wie Prüfberichtstexte automatisiert analysiert und kategorisiert werden könnten.
 
-Die KI-Komponente ist bewusst als Demonstrator ausgelegt
-und nicht als produktionsreifes System implementiert.
-
-Ziel ist die fachliche Einordnung von KI als unterstützendes Werkzeug –
-nicht als Ersatz für ingenieurtechnische Bewertung.
+Die KI-Komponente ist bewusst nicht produktionsreif implementiert.
+Sie soll das Potenzial von KI als unterstützendes Analysewerkzeug verdeutlichen –
+nicht als Ersatz für die fachliche Bewertung durch Ingenieure.
 
 ---
 
@@ -113,12 +132,6 @@ nicht als Ersatz für ingenieurtechnische Bewertung.
 
 ---
 
-Die technische Umsetzung ist bewusst schlank gehalten.  
-Der Fokus liegt auf **Nachvollziehbarkeit, Wartbarkeit und Praxisnutzen**, nicht auf technischer Komplexität.
-
----
-
-## Ergebnis
 ## Ergebnis
 - Ein Schaden ist nicht mehr nur Text, sondern ein **digitaler Datensatz**
 - Prioritäten sind **objektiv und sofort sichtbar**
@@ -130,25 +143,31 @@ Der Fokus liegt auf **Nachvollziehbarkeit, Wartbarkeit und Praxisnutzen**, nicht
 
 ### Tabellenübersicht
 
-![Tabellenübersicht](docs/screenshots/01_schema_tables.png)
-
+<p align="center">
+  <img src="docs/screenshots/01_schema_tables.png" width="600">
+</p>
 ### Prioritätenliste
 
-![Prioritätenliste](docs/screenshots/03_prioritaetenliste.png)
-
-
+<p align="center">
+  <img src="docs/screenshots/03_prioritaetenliste.png" width="600">
+</p>
 ---
 
-## Warum ist das relevant für den öffentlichen Sektor?
+## Relevanz für den öffentlichen Sektor
+
 - Zeitersparnis bei der Auswertung von Prüfberichten
-- Einheitliche, nachvollziehbare Priorisierung
-- Saubere Datenbasis für Planung, Budgetierung und Kommunikation
+- Einheitliche und nachvollziehbare Priorisierung
+- Verbesserte Planbarkeit von Instandhaltungsmaßnahmen
+- Transparente Dokumentation für interne und externe Prüfungen
 
 ---
 
 ## Projektfokus
-Dieses Projekt ist kein reines Softwareprojekt, sondern ein **Digitalisierungsbeispiel**.
-Es zeigt, wie Fachwissen, IT und Prozesse so verbunden werden, dass Entscheidungen schneller, transparenter und nachvollziehbar werden.
+Dieses Projekt ist ein strukturiertes Digitalisierungs-Proof-of-Concept
+im Kontext öffentlicher Infrastruktur und kommunaler Bauwerksverwaltung.
+
+Es zeigt, wie Fachwissen, IT und Prozesslogik
+zu einer klaren, belastbaren Entscheidungsgrundlage verbunden werden können.
 
 ## Projekt-Dokumentation
 📄 
@@ -156,6 +175,5 @@ Es zeigt, wie Fachwissen, IT und Prozesse so verbunden werden, dass Entscheidung
 - [02 – Prozessdigitalisierung und DMS](docs/Portfolio/02_Prozessdigitalisierung_und_DMS.md)
 - [03 – Systemlogik und Automatisierung](docs/Portfolio/03_Systemlogik_und_Automatisierung.md)
 - [04 – Projektmanagement_und_Workshops](docs/Portfolio/04_Projektmanagement_und_Workshops.md)
-- [05 – Digitalisierung_und_KI_Use_Cases](docs/Portfolio/05_Digitalisierung_und_KI_Use_Cases.md
-)
+- [05 – Digitalisierung_und_KI_Use_Cases](docs/Portfolio/05_Digitalisierung_und_KI_Use_Cases.md)
 
