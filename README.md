@@ -84,6 +84,22 @@ Management-Übersicht / Entscheidungsgrundlage
 
 ---
 
+## KI-Komponente (Proof of Concept)
+
+Im Ordner `src/ai` befindet sich eine exemplarische Textklassifikation
+(`prototype_text_classification.py`).
+
+Diese dient als **Proof of Concept**, um zu demonstrieren,
+wie Prüfberichtstexte automatisiert analysiert und kategorisiert werden könnten.
+
+Die KI-Komponente ist bewusst als Demonstrator ausgelegt
+und nicht als produktionsreifes System implementiert.
+
+Ziel ist die fachliche Einordnung von KI als unterstützendes Werkzeug –
+nicht als Ersatz für ingenieurtechnische Bewertung.
+
+---
+
 ### Eingesetzte Technologien
 
 - **Docker**  
@@ -125,6 +141,7 @@ Es zeigt, wie Fachwissen, IT und Prozesse so verbunden werden, dass Entscheidung
 - [01 – Kurz-Portfolio (PDF)](docs/Portfolio/01_Digitale_Brueckenpruefung_Portfolio.pdf)
 - [02 – Prozessdigitalisierung und DMS](docs/Portfolio/02_Prozessdigitalisierung_und_DMS.md)
 - [03 – Systemlogik und Automatisierung](docs/Portfolio/03_Systemlogik_und_Automatisierung.md)
-- [04 – Systemlogik und Automatisierung](docs/Portfolio/04_Projektmanagement_und_Workshops.md)
-- [05 – Systemlogik und Automatisierung](docs/Portfolio/05_Digitalisierung_und_KI.md)
+- [04 – Projektmanagement_und_Workshops](docs/Portfolio/04_Projektmanagement_und_Workshops.md)
+- [05 – Digitalisierung_und_KI_Use_Cases](docs/Portfolio/05_Digitalisierung_und_KI_Use_Cases.md
+)
 
